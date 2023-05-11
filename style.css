@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "DinkieBitmap";
+  src: url("DinkieBitmap-9px.woff2");
+}
+
+body {
+  user-select: none;
+  font-family: "DinkieBitmap";
+  font-size: 20px;
+  line-height: 1.4;
+  color: #18ff28;
+  background-color: #f4f8fb;
+  max-width: 600px;
+  margin: auto;
+}
+
+a, a:visited{
+  color: #ff0d40;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #18ff28;
+  transition: color 0.2s ease-out;
+}
+
+h1{
+  font-size: 2.5em;
+  margin: 0;
+}
+
+h2{
+  font-size: 1em;
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 4px;
+}
+
+main>ul {
+  padding-left: 0;
+}
+
+table {
+  margin-left: 40px;
+}
+
+summary {
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+summary:hover, .level-name:hover {
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #202020;
+  box-shadow: 5px 5px 10px #686868;
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
+  margin-top: 24px;
+  margin-bottom: 36px;
+}
+
+.menu {
+  padding: 16px;
+  margin: 24px 0;
+}
+
+.author {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 40px);
+}
+
+.level-id {
+  min-width: 80px;
+}
+
+.level-name {
+  padding: 0 20px;
+}

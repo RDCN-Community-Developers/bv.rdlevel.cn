@@ -1,0 +1,81 @@
+.menu{
+    width:560px;
+    margin:0px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(32,32,32,0.9);
+    font-family: menufont;
+    font-size: 21px;
+    line-height: 1.5;
+    color: #04FE2A;
+    box-shadow: 5px 5px 10px #cccccc;
+}
+
+.menuline{
+    height: 32px;
+    line-height: 32px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.list{
+    padding-left: 0px;
+}
+
+summary{
+    cursor: pointer;
+    padding-left: 21px;
+    margin-left: 0px;
+    list-style: none;
+}
+  
+summary:hover, .level-name:hover{
+    background-color: rgb(68, 68, 68);
+    border-radius: 10px;
+}
+
+summary::before{
+    float: left; 
+    height: 21px;
+    width: 21px;
+    content: "→";
+}
+
+details[open] summary::before {
+    content: "↓";
+}
+
+ul{
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 4px;
+}
+
+table{
+    margin-left: 42px;
+}
+
+a:link, a:visited{
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover{
+    transition:color .2s ease-out;
+    color: #04FE2A;
+    text-decoration: none;
+}
+
+.level-id{
+    width: 70px;
+}
+  
+.level-name{
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.list>.level-name{
+    padding-left: 42px;
+}
+  

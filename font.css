@@ -1,0 +1,48 @@
+.disable-text-selection{
+    user-select:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none
+}
+
+.heimu, .heimuNeedClick{
+    background-color:#252525;
+    color:#252525;
+    text-shadow:none;
+}
+
+.heimu:hover{
+    transition:color .2s ease-out;
+    color:chocolate
+}
+
+.heimuNeedClick:active{
+    transition:color 2s ease-out;
+    color:red
+}
+
+@font-face {
+    font-family: titlefont;
+    src: url(DinkieBitmap-9px.woff2);
+}
+
+@font-face {
+    font-family: menufont;
+    src: url(DinkieBitmap-9px.woff2);
+}
+
+/* 
+    div     元素选择器
+    #id     艾迪选择器
+    .class  类选择器
+    *       通配选择器
+    空格    后代选择器
+    +       兄弟选择器
+    []      属性选择器
+    :       伪类选择器
+    ::      伪类选择器
+
+    权重顺序：内联>艾迪>类和伪类>元素>通配>继承
+    !important修改为最高优先级
+*/
