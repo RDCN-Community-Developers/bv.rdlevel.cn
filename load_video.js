@@ -8,14 +8,15 @@ function addVideo(uid, videoId, videoName) {
 }
 
 fetch('./videos.txt').then(res => {
-    res.text()
-    .split('\n')
-    .filter(line => line.length > 0 && line[0] != '#')
-    .forEach(line => {
-        var args = line.split('|');
-        if (args.length < 2) {
-            return;
-        }
-        addVideo(args[0], args[1], args[2]);
+    res.text().then(text => {
+        text.split('\n')
+            .filter(line => line.length > 0 && line[0] != '#')
+            .forEach(line => {
+                var args = line.split('|');
+                if (args.length < 2) {
+                    return;
+                }
+                addVideo(args[0], args[1], args[2]);
+            });
     });
 });
