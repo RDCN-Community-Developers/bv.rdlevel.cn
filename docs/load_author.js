@@ -12,16 +12,18 @@ function addAuthor(name, uid, imageUrl) {
     $('#author-list').append(template);
 }
 
-fetch('./authors.txt').then(res => {
-    res.text().then(text => {
-        text.split('\n')
-            .filter(line => line.length > 0 && line[0] != '#')
-            .forEach(line => {
-                var args = line.split('|');
-                if (args.length < 2) {
-                    return;
-                }
-                addAuthor(args[0], args[1], args[2]);
-            });
+$(() => {
+    fetch('./authors.txt').then(res => {
+        res.text().then(text => {
+            text.split('\n')
+                .filter(line => line.length > 0 && line[0] != '#')
+                .forEach(line => {
+                    var args = line.split('|');
+                    if (args.length < 2) {
+                        return;
+                    }
+                    addAuthor(args[0], args[1], args[2]);
+                });
+        });
     });
 });
