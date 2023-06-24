@@ -40,9 +40,9 @@ def load_existed_authors() -> set:
     try:
         file_name = "../docs/authors.txt" if "debug" not in sys.argv else "debug_authors.txt"
         authors = set()
-        with open(file_name, "r", encoding="utf-8") as f:
+        with open(file_name, "rt", encoding="utf-8") as f:
             for line in f.read().splitlines():
-                if line.isspace() or line.startswith("#"):
+                if len(line) <= 0 or line.isspace() or line.startswith("#"):
                     continue
 
                 authors.add(line.split('|')[1])
