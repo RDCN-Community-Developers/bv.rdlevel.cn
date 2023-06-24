@@ -21,7 +21,7 @@ jobs:
                     pip install -r requirements.txt
             -   name: Run Update
                 run: |
-                    python update.py
+                    python main.py
                     cd ..
             -   name: Commit Changes
                 uses: EndBug/add-and-commit@v9
