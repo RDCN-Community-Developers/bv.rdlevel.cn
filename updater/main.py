@@ -45,7 +45,7 @@ def load_existed_authors() -> set:
                 if len(line) <= 0 or line.isspace() or line.startswith("#"):
                     continue
 
-                authors.add(line.split('|')[1])
+                authors.add(int(line.split('|')[1]))
         return authors
     except FileNotFoundError:
         return set()
@@ -94,5 +94,6 @@ if __name__ == '__main__':
             print(f"Found new video {video_name} with bvid {bvid} and author {author_id}.")
             video_file.write(f"{author_id}|{bvid}|{video_name}\n")
 
-    config["timestamp"] = int(time.time())
+    if "debug" not in sys.argv:
+        config["timestamp"] = int(time.time())
     save_config(config)
