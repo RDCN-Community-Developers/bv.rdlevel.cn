@@ -83,7 +83,7 @@ def provide_with_tag():
 
 
 def provide_with_id():
-    ids = session.get("https://api.rdlevel.cn/bv/video").json()
+    ids = set(session.get("https://api.rdlevel.cn/bv/video").json())
     for id in ids:
         if id.lower().startswith("bv"):
             data = {
