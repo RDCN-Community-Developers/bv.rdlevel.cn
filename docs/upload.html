@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://api.rdlevel.cn/counter/bv.rdlevel.cn"></script>
+	    <meta charset="utf-8">
+        <title>上传至节奏医生视频合集</title>
+        <meta name="author" content="NoMathExpectation & All contributors">
+        <meta name="description" content="节奏医生视频合集上传处">
+        <meta property="og:title" content="节奏医生视频合集" />
+        <meta property="og:description" content="在这里上传你的视频到节奏医生视频合集。也可以通过投稿B站视频时加上“同步至节奏医生视频合集”的标签来添加你的视频。" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bv.rdlevel.cn/upload" />
+        <meta property="og:image" content="https://bv.rdlevel.cn/bgimg.png" />
+        <link rel="stylesheet" href="font.css">
+        <link rel="stylesheet" href="title.css">
+        <link rel="stylesheet" href="menu.css">
+        <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+        <script src="scripts/upload.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="title disable-text-selection">
+                <span class="titlegreen">节奏医生</span>
+                <span class="titlered">视频合集</span>
+            </div>
+        </header>
+        <main style="margin-top:50px;">
+            <div class="menu disable-text-selection">
+                <div class="menuline">上传视频到合集</div>
+                <div class="smalltext">
+                    在这里填写你的视频的av/bv号，即可将你的视频加入到更新列表中。
+                </div>
+                <div class="smalltext">
+                    也可以通过投稿B站视频时加上“同步至节奏医生视频合集”的标签来添加你的视频。
+                </div>
+                <div class="menuline">
+                    视频编号：
+                    <input type="text" id="video" name="id" title="视频av/bv号" placeholder=""/>
+                </div>
+                <div class="menuline"></div>
+                <div class="menuline">
+                    <button type="button" id="submit">提交</button>
+                    &nbsp;&nbsp;
+                    <span id="info"></span>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

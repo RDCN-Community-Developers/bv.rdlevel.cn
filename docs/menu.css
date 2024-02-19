@@ -1,9 +1,9 @@
-.menu{
-    width:560px;
-    margin:0px auto;
+.menu {
+    width: 560px;
+    margin: 0px auto;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgba(32,32,32,0.9);
+    background-color: rgba(32, 32, 32, 0.9);
     font-family: menufont;
     font-size: 21px;
     line-height: 1.5;
@@ -11,14 +11,14 @@
     box-shadow: 5px 5px 10px #cccccc;
 }
 
-.menuline{
+.menuline {
     height: 32px;
     line-height: 32px;
     margin-top: 4px;
     margin-bottom: 4px;
 }
 
-.smalltext{
+.smalltext {
     height: 12px;
     line-height: 12px;
     margin-top: 2px;
@@ -26,24 +26,25 @@
     font-size: 10px;
 }
 
-.list{
+.list {
     padding-left: 0px;
 }
 
-summary{
+summary {
     cursor: pointer;
     padding-left: 21px;
     margin-left: 0px;
     list-style: none;
 }
-  
-summary:hover, .level-name:hover{
+
+summary:hover,
+.level-name:hover {
     background-color: rgb(68, 68, 68);
     border-radius: 10px;
 }
 
-summary::before{
-    float: left; 
+summary::before {
+    float: left;
     height: 21px;
     width: 21px;
     content: "→";
@@ -53,37 +54,81 @@ details[open] summary::before {
     content: "↓";
 }
 
-ul{
+ul {
     list-style: none;
     padding-left: 20px;
     margin-top: 4px;
 }
 
-table{
+table {
     margin-left: 42px;
 }
 
-a:link, a:visited{
+a:link,
+a:visited {
     color: crimson;
     text-decoration: none;
 }
 
-a:hover{
-    transition:color .2s ease-out;
+a:hover {
+    transition: color .2s ease-out;
     color: #04FE2A;
     text-decoration: none;
 }
 
-.level-id{
+.level-id {
     width: 70px;
 }
-  
-.level-name{
+
+.level-name {
     padding-left: 21px;
     padding-right: 21px;
 }
 
-.list>.level-name{
+.list>.level-name {
     padding-left: 42px;
 }
-  
+
+input[type="text"] {
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ff0d40;
+    border-radius: 4px;
+    background-color: #202020;
+    color: #18ff28;
+    font-family: titleFont;
+    font-size: 21px;
+}
+
+input[type="text"]:hover {
+    transition: border .2s ease-out;
+    border: 1px solid #18ff28;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #18ff28;
+    outline: 1px solid #18ff28;
+}
+
+button {
+    width: 50%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ff0d40;
+    border-radius: 4px;
+    background-color: #202020;
+    color: #18ff28;
+    font-family: titleFont;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: border .2s ease-out;
+    border: 1px solid #18ff28;
+}
+
+button:active {
+    border: 1px solid #18ff28;
+    outline: 1px solid #18ff28;
+}

@@ -1,44 +1,44 @@
-body{
+body {
     background-image: url(bgimg.png);
     background-attachment: fixed;
     background-size: cover;
 }
 
-.title{
-    width:560px;
-    height:100px;
+.title {
+    width: 560px;
+    height: 100px;
     /* line-height: 100px; */
     border-radius: 10px;
     padding: 10px 20px;
-    margin:20px auto;
-    background-color: rgba(32,32,32,0.9);
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    margin: 20px auto;
+    background-color: rgba(32, 32, 32, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 5px 5px 10px #aaaaaa;
-} 
+}
 
-.titlegreen{
-    color:#04FE2A;
+.titlegreen {
+    color: #04FE2A;
     font-size: 50px;
     text-align: center;
     font-family: titleFont;
 }
 
-.titlered{
-    color:#FF0144;
-    font-size: 50px; 
+.titlered {
+    color: #FF0144;
+    font-size: 50px;
     text-align: center;
     font-family: titleFont;
 }
 
-.beian{
+.beian {
     width: 600px;
-    height:32px;
+    height: 32px;
     border-radius: 10px;
     padding-top: 15px;
     margin: auto;
-    background-color: rgba(32,32,32,1);
+    background-color: rgba(32, 32, 32, 1);
     position: fixed;
     bottom: 0px;
     left: 0;
