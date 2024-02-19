@@ -1,7 +1,7 @@
 'use strict';
 
 $(() => {
-    let id_regex = /^(av[0-9]+)|(bv[0-9a-zA-Z]{10})$/i;
+    let id_regex = /^((av[0-9]+)|(bv[0-9a-zA-Z]{10}))$/i;
 
     $.ajaxSetup({
         contentType: "application/json; charset=utf-8"
