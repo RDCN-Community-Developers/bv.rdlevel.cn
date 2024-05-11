@@ -29,6 +29,7 @@ $(() => {
                 }
             );
         } catch (e) {
+            console.error(e);
             $('#info').text('提交失败');
         }
     });

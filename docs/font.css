@@ -22,6 +22,16 @@
     color:red
 }
 
+.heimu-blur {
+    transition: 0.5s ease-out;
+    filter: blur(5px);
+}
+
+.heimu-blur:hover {
+    transition: 0.5s ease-out;
+    filter: none;
+}
+
 @font-face {
     font-family: titlefont;
     src: url(DinkieBitmap-9px.woff2);

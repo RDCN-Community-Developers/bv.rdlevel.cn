@@ -1,0 +1,268 @@
+{
+    "1": {
+        "name": "第一章",
+        "levels": {
+            "1-1": {
+                "name": "东方电舞曲",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 1
+            },
+            "1-1N": {
+                "name": "东方回响贝斯",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 2
+            },
+            "1-2": {
+                "name": "亲密",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 3
+            },
+            "1-2N": {
+                "name": "亲密・夜班模式",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 4
+            },
+            "1-X": {
+                "name": "东方不眠夜",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 5
+            },
+            "1-XN": {
+                "name": "超・东方不眠夜",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 6
+            },
+            "1-CNY": {
+                "name": "春节贺岁篇",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 7
+            }
+        }
+    },
+    "2": {
+        "name": "第二章",
+        "levels": {
+            "2-1": {
+                "name": "Lo-fi Hip-pop Beats To Treat Patients To",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 8
+            },
+            "2-1N": {
+                "name": "wish i could care less",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 9
+            },
+            "2-2": {
+                "name": "室上性心博过速",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 10
+            },
+            "2-2N": {
+                "name": "Unreachable",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 11
+            },
+            "2-3": {
+                "name": "缭绕",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 12
+            },
+            "2-3N": {
+                "name": "嗅炸弹的博美犬",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 13
+            },
+            "2-4": {
+                "name": "海之歌",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 14
+            },
+            "2-4N": {
+                "name": "海之歌·夜",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 16
+            },
+            "2-X": {
+                "name": "All The Times（咖啡之歌）",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 19
+            },
+            "2-B1": {
+                "name": "武士豆子跳",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 20
+            }
+        }
+    },
+    "3": {
+        "name": "第三章",
+        "levels": {
+            "3-1": {
+                "name": "沉睡花园",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 21
+            },
+            "3-1N": {
+                "name": "休息室",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 22
+            },
+            "3-2": {
+                "name": "典雅",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 23
+            },
+            "3-2N": {
+                "name": "典雅",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 24
+            },
+            "3-3": {
+                "name": "分离二重唱",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 25
+            },
+            "3-3N": {
+                "name": "分离二重唱・夜",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 27
+            },
+            "3-X": {
+                "name": "One Shift More（轮班之歌）",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 28
+            }
+        }
+    },
+    "4": {
+        "name": "第四章",
+        "levels": {
+            "4-1": {
+                "name": "实习医生 培训演练 表现评估",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 31
+            },
+            "4-1N": {
+                "name": "轮滑迪斯科震颤",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 34
+            },
+            "4-2": {
+                "name": "隐形",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 35
+            },
+            "4-2N": {
+                "name": "隐形・夜",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 36
+            },
+            "4-3": {
+                "name": "斯坦威",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 37
+            },
+            "4-3N": {
+                "name": "斯坦威再现部",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 38
+            },
+            "4-4": {
+                "name": "懂你",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 39
+            },
+            "4-4N": {
+                "name": "One Shift More（轮班之歌）",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 41
+            }
+        }
+    },
+    "5": {
+        "name": "第五章",
+        "levels": {
+            "5-1": {
+                "name": "路吉摔了一跤",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 42
+            },
+            "5-1N": {
+                "name": "One Slip Too Late（创伤之歌）",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 43
+            },
+            "5-2": {
+                "name": "Lo-fi Beats For Patients To Chill To",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 44
+            },
+            "5-2N": {
+                "name": "无以为继的伤心欲绝",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 45
+            },
+            "5-3": {
+                "name": "七局伸展操",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 46
+            },
+            "5-X": {
+                "name": "梦想永不歇",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 47
+            }
+        }
+    },
+    "X": {
+        "name": "附加关卡",
+        "levels": {
+            "X-0": {
+                "name": "伸出援手",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 50
+            },
+            "X-1": {
+                "name": "美术练习",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 51
+            },
+            "?": {
+                "name": "节奏狗生",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 52,
+                "hidden": true
+            }
+        }
+    },
+    "collab": {
+        "name": "联动关卡",
+        "levels": {
+            "X-WOT": {
+                "name": "Worn Out Tapes",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 53
+            },
+            "MD-1": {
+                "name": "Blackest Luxury Car",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 54
+            },
+            "MD-2": {
+                "name": "tape/stop/night",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 55
+            },
+            "MD-3": {
+                "name": "The 90's Decision",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 56
+            },
+            "X-MAT": {
+                "name": "Meet and Tweet",
+                "videoId": "BV1PZ4y1P7yE",
+                "p": 57
+            }
+        }
+    }
+}
