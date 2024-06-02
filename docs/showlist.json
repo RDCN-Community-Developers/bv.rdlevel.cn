@@ -1,5 +1,5 @@
 {
-    "timestamp": 1717272861,
+    "timestamp": 1717359279,
     "authors": {
         "4870582": {
             "id": 4870582,
@@ -392,6 +392,48 @@
                 "BV1te4y1U7nu": {
                     "id": "BV1te4y1U7nu",
                     "title": "[Rhythm Doctor] 周杰伦-稻香"
+                }
+            }
+        },
+        "1928620300": {
+            "id": 1928620300,
+            "name": "只能用宽判的屑",
+            "videos": {
+                "BV1xi421v7dE": {
+                    "id": "BV1xi421v7dE",
+                    "title": "【节奏医生】新的窗口移动谱"
+                },
+                "BV1Es421G7qa": {
+                    "id": "BV1Es421G7qa",
+                    "title": "【节奏医生】特效塞爆！（"
+                },
+                "BV1gC41177ij": {
+                    "id": "BV1gC41177ij",
+                    "title": "【节奏医生】不会做音频可视化"
+                },
+                "BV1zx42127rj": {
+                    "id": "BV1zx42127rj",
+                    "title": "【节奏医生】什么剧情关"
+                },
+                "BV1Gz421a7EZ": {
+                    "id": "BV1Gz421a7EZ",
+                    "title": "【节奏医生】长按特效（"
+                },
+                "BV1Xf42117oc": {
+                    "id": "BV1Xf42117oc",
+                    "title": "【节奏医生】Creo - Challenger"
+                },
+                "BV1fm411B7sm": {
+                    "id": "BV1fm411B7sm",
+                    "title": "【节奏医生】Hinkik-Ena"
+                },
+                "BV1bx421Q7Su": {
+                    "id": "BV1bx421Q7Su",
+                    "title": "【节奏医生愚人节】双伪窗口"
+                },
+                "BV1US411K7fa": {
+                    "id": "BV1US411K7fa",
+                    "title": "【节奏医生】落日余晖"
                 }
             }
         }
