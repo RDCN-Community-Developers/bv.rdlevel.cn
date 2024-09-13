@@ -19,9 +19,15 @@
     }
 
     function addVideo(chapterId, id, videoData) {
-        let link = `https://www.bilibili.com/video/${videoData.videoId}`;
-        if (videoData.p) {
-            link += `?p=${videoData.p}`;
+        let nameConfig = `<a href="javascript:void(0)">${videoData.name}</a>`;
+        if (videoData.videoId) {
+            let link = `https://www.bilibili.com/video/${videoData.videoId}`;
+            if (videoData.p) {
+                link += `?p=${videoData.p}`;
+            }
+            nameConfig = `<a href="${link}" target="_blank">${videoData.name}</a>`;
+        } else if (videoData.url) {
+            nameConfig = `<a href="${videoData.url}" target="_blank">${videoData.name}</a>`;
         }
 
         let hiddenConfig = ''
@@ -31,7 +37,7 @@
 
         const template = `<tr id="sp-list-${chapterId}-${id}" ${hiddenConfig}>
             <td class="level-id">${id}</td>
-            <td class="level-name"><a href="${link}" target="_blank">${videoData.name}</a></td>
+            <td class="level-name">${nameConfig}</td>
         </tr>`;
         $(`#sp-list-${chapterId}`).append(template);
     }
