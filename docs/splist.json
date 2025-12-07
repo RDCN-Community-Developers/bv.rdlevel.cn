@@ -91,6 +91,12 @@
                 "videoId": "BV1PZ4y1P7yE",
                 "p": 19
             },
+            "2-XN": {
+                "name": "Bitter Times（爱情是苦和甜的交错）",
+                "videoId": "BV11K2dBUEd3",
+                "p": 1,
+                "hidden": true
+            },
             "2-B1": {
                 "name": "武士豆子跳",
                 "videoId": "BV1PZ4y1P7yE",
@@ -193,8 +199,8 @@
             },
             "5-1N": {
                 "name": "One Slip Too Late（创伤之歌）",
-                "videoId": "BV1PZ4y1P7yE",
-                "p": 43
+                "videoId": "BV11K2dBUEd3",
+                "p": 2
             },
             "5-2": {
                 "name": "Lo-fi Beats For Patients To Chill To",
@@ -211,6 +217,12 @@
                 "videoId": "BV1PZ4y1P7yE",
                 "p": 46
             },
+            "5-3N": {
+                "name": "偕老",
+                "videoId": "BV11K2dBUEd3",
+                "p": 3,
+                "hidden": true
+            },
             "5-B1": {
                 "name": "节奏举重",
                 "videoId": "BV1hH4oeuEkK"
@@ -219,6 +231,52 @@
                 "name": "梦想永不歇",
                 "videoId": "BV1PZ4y1P7yE",
                 "p": 47
+            }
+        }
+    },
+    "6": {
+        "name": "第六章",
+        "levels": {
+            "6-1": {
+                "name": "想把心事和你说",
+                "videoId": "BV11K2dBUEd3",
+                "p": 4,
+                "hidden": true
+            },
+            "6-2": {
+                "name": "欢迎回来",
+                "videoId": "BV11K2dBUEd3",
+                "p": 5,
+                "hidden": true
+            },
+            "6-X": {
+                "name": "Boss战",
+                "videoId": "BV11K2dBUEd3",
+                "p": 6,
+                "hidden": true
+            }
+        }
+    },
+    "7": {
+        "name": "第七章",
+        "levels": {
+            "7-1": {
+                "name": "模糊",
+                "videoId": "BV11K2dBUEd3",
+                "p": 8,
+                "hidden": true
+            },
+            "7-X": {
+                "name": "奇迹除颤器",
+                "videoId": "BV11K2dBUEd3",
+                "p": 9,
+                "hidden": true
+            },
+            "7-X2": {
+                "name": "奇迹除颤器（安可版）",
+                "videoId": "BV11K2dBUEd3",
+                "p": 10,
+                "hidden": true
             }
         }
     },
