@@ -9,7 +9,7 @@ now = int(time.time())
 
 session = requests.Session()
 session.headers["User-Agent"] = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
 )
 session.headers["X-Upload-Key"] = os.environ.get("X_UPLOAD_KEY", "x-upload-key")
 if "debug" in sys.argv:
@@ -23,6 +23,10 @@ if "debug" in sys.argv:
 showlist_file_name = (
     "../docs/showlist.json" if "debug" not in sys.argv else "debug_showlist.json"
 )
+
+from wbi import Wbi
+
+wbi = Wbi(session)
 
 
 def load_showlist() -> dict:
@@ -57,13 +61,17 @@ def provide_with_tag():
             "tids": 4,
             "page": page,
         }
+        data = wbi.encode_query(data)
         page += 1
 
         result = session.get(
-            "https://api.bilibili.com/x/web-interface/search/type", params=data
+            "https://api.bilibili.com/x/web-interface/wbi/search/type", params=data
         ).json()
         if result["code"] != 0:
             raise ValueError(f"Result code {result['code']}: {result['message']}")
+
+        if 'debug' in sys.argv:
+            print(result)
 
         for item in result["data"]["result"]:
             if "tag" not in item["hit_columns"]:
@@ -80,6 +88,9 @@ def provide_with_tag():
                 .replace('<em class="keyword">', "")
                 .replace("</em>", ""),
             }
+
+        print('sleeping for a minute...')
+        time.sleep(60)
 
 
 def provide_with_id():
