@@ -1,5 +1,5 @@
 {
-    "timestamp": 1790866678,
+    "timestamp": 1793348512,
     "authors": {
         "4870582": {
             "id": 4870582,
@@ -302,6 +302,10 @@
                 "BV1QGZiBAErQ": {
                     "id": "BV1QGZiBAErQ",
                     "title": "2026节奏医生拜年祭录播+群友观感"
+                },
+                "BV1PUHB66EP2": {
+                    "id": "BV1PUHB66EP2",
+                    "title": "Rhythm Doctor Compo 23: Whimsy 首映"
                 }
             }
         },
@@ -516,6 +520,26 @@
                 "BV1whVdz2ERf": {
                     "id": "BV1whVdz2ERf",
                     "title": "[节奏医生自制谱]  Glimmer-saite"
+                }
+            }
+        },
+        "198728138": {
+            "id": 198728138,
+            "name": "菜鸟阿纲",
+            "videos": {
+                "BV1UcaS6qEsj": {
+                    "id": "BV1UcaS6qEsj",
+                    "title": "想起那个噩梦！【节奏医生自制谱】Dramatic Entrance!（含双版本，以及双人模式）"
+                }
+            }
+        },
+        "1628201434": {
+            "id": 1628201434,
+            "name": "熊猫568",
+            "videos": {
+                "BV11Aam6tEfw": {
+                    "id": "BV11Aam6tEfw",
+                    "title": "【节奏医生夏活】 Some Nights - Fun."
                 }
             }
         }
